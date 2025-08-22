@@ -26,7 +26,12 @@ const BackToTop = () => {
   };
 
   return (
-    <div className="fixed bottom-6 right-6 z-50">
+    <div
+      className="fixed bottom-6 right-6 z-50"
+      data-aos="fade-down"
+      data-aos-once="false"
+      data-aos-anchor-placement="bottom-bottom"
+    >
       {isVisible && (
         <button
           onClick={scrollToTop}
