@@ -3,7 +3,9 @@ import SocialIcons from "./SocialIcons";
 const Header = () => {
   return (
     <header className="flex justify-between items-center p-6 md:p-10">
-      <h1 className="text-2xl md:text-3xl font-bold text-primary">Ege Olgun</h1>
+      <h1 className="text-2xl md:text-3xl font-bold text-primary">
+        <span className="neon-glow">Ege Olgun</span>
+      </h1>
 
       <div className="flex items-center space-x-8">
         {/* Social Icons */}

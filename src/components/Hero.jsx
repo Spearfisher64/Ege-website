@@ -1,3 +1,5 @@
+import CodeGridBackground from "./CodeGridBackground";
+
 const Hero = () => {
   return (
     <section
@@ -6,7 +8,7 @@ const Hero = () => {
     >
       <div className="max-w-4xl" data-aos="fade-right">
         <h2 className="text-4xl md:text-6xl font-bold mb-4">
-          Hi, I'm <span className="text-primary">Ege Olgun</span>
+          Hi, I'm <span className="neon-glow">Ege Olgun</span>
         </h2>
         <p className="text-xl md:text-2xl text-gray-300 mb-8">
           Mobile App Developer • Web Developer • SEO & Google AdSense Expert
