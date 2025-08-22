@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { blogPosts } from "../data/blogPosts";
 import { Link } from "react-router-dom";
+import SEO from "./SEO";
 
 const BlogPage = () => {
   const { slug } = useParams();
@@ -26,6 +27,19 @@ const BlogPage = () => {
 
   return (
     <section className="py-16 px-6 md:px-16 max-w-4xl mx-auto">
+      <SEO
+        title={post.title}
+        description={post.excerpt}
+        type="article"
+        url={`https://egeolgun.com/blog/${post.slug}`}
+        image="https://egeolgun.com/blog-og-default.jpg" // Replace with real image
+        article={{
+          title: post.title,
+          excerpt: post.excerpt,
+          date: post.date,
+          readTime: post.readTime,
+        }}
+      />
       <Link
         to="/#blog"
         className="text-primary text-sm hover:underline mb-6 inline-block"
