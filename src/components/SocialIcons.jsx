@@ -16,7 +16,7 @@ const SocialIcons = ({ size = 20, className = "" }) => {
 
       {/* LinkedIn */}
       <a
-        href="https://linkedin.com/in/yourprofile"
+        href="https://linkedin.com/in/ege-olgun-237ab11b2"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="LinkedIn"
@@ -27,7 +27,7 @@ const SocialIcons = ({ size = 20, className = "" }) => {
 
       {/* Twitter/X */}
       <a
-        href="https://twitter.com/yourhandle"
+        href="https://x.com/Spearfisher35"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Twitter / X"
