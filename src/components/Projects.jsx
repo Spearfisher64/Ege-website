@@ -6,8 +6,8 @@ const Projects = () => {
       tech: "React Native, Firebase",
     },
     {
-      title: "SEO Dashboard",
-      desc: "A web tool for tracking keyword rankings and traffic analytics.",
+      title: "Search Engine Optimized Website",
+      desc: "A website for your store fully optimized for best profits.",
       tech: "React, Tailwind, Vite",
     },
     {

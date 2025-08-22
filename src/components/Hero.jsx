@@ -13,7 +13,8 @@ const Hero = () => {
         </p>
         <p className="text-lg text-gray-400 mb-10 max-w-2xl">
           I build high-performance mobile apps and websites, and help content
-          creators grow through SEO and monetize with Google AdSense.
+          creators & business owners grow through SEO and monetize with Google
+          AdSense.
         </p>
         <div className="space-x-4">
           <a
