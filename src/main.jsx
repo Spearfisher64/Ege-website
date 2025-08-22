@@ -1,22 +1,25 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";
+import "./index.css";
 
 // Import AOS
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 // Initialize AOS
 AOS.init({
-  duration: 800,       // Animation duration
-  easing: 'ease-in-out', // Smooth easing
-  once: true,          // Animates only once when scrolled into view
-  offset: 100,         // Trigger animation sooner
-})
+  duration: 800, // Animation duration
+  easing: "ease-in-out", // Smooth easing
+  once: true, // Animates only once when scrolled into view
+  offset: 100, // Trigger animation sooner
+});
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
-)
+);

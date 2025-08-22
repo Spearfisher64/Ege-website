@@ -28,6 +28,11 @@ const Header = () => {
               </a>
             </li>
             <li>
+              <a href="#blog" className="hover:text-primary transition">
+                Blog
+              </a>
+            </li>
+            <li>
               <a href="#contact" className="hover:text-primary transition">
                 Contact
               </a>
