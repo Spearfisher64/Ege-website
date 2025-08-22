@@ -8,6 +8,7 @@ import BlogPage from "./components/BlogPage";
 import Contact from "./components/Contact";
 import BackToTop from "./components/BackToTop";
 import SocialIcons from "./components/SocialIcons";
+import ProjectPage from "./components/ProjectPage";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
 
           {/* Blog Post Page */}
           <Route path="/blog/:slug" element={<BlogPage />} />
-
+          <Route path="/projects/:slug" element={<ProjectPage />} />
           {/* Redirect any unknown route to home */}
           <Route path="*" element={<Hero />} />
         </Routes>
